@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Idaho Deck | Proudly American, Uniquely Idahoan</title>
+  <meta name="description" content="Idaho Deck builds tailored, handcrafted outdoor decks with premium materials.">
+
+  <!-- Fonts: Barlow (headings) + Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,500;0,600;0,700;1,400;1,500&family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="header" id="top">
+    <div class="header__inner">
+      <a href="#top" class="header__logo">
+        <img src="images/logo.svg" alt="Idaho Deck" width="200" height="69">
+      </a>
+
+      <button class="header__toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#top" class="nav__link">Home</a>
+        <a href="#about" class="nav__link">About</a>
+        <a href="#services" class="nav__link nav__link--arrow">Our Process</a>
+        <a href="#materials" class="nav__link nav__link--arrow">Products</a>
+        <a href="#projects" class="nav__link">Projects</a>
+        <a href="#contact" class="nav__link">Contact</a>
+        <a href="#contact" class="btn btn--red btn--barlow nav__cta">
+          <span class="btn__label" data-label="Get a Quote">Get a Quote</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero">
+      <div class="hero__inner">
+        <div class="hero__content">
+          <p class="tagline"><span class="tagline__line"></span>Welcome to Idaho Deck</p>
+          <h1 class="hero__title">Proudly American,<br>Uniquely Idahoan</h1>
+          <p class="hero__text">Experience the perfect blend of craftsmanship and style</p>
+          <div class="hero__buttons">
+            <a href="#contact" class="btn btn--red btn--lg">
+              <span class="btn__label" data-label="Contact Us">Contact Us</span>
+            </a>
+            <a href="#about" class="btn btn--outline btn--lg">
+              <span class="btn__label" data-label="Learn More">Learn More</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero__media">
+          <img src="images/hero.jpg" alt="Smiling Idaho Deck carpenter in his workshop">
+          <button class="play-btn" type="button" aria-label="Play video">
+            <img class="play-btn__ring play-btn__ring--outer" src="images/play-ring-outer.svg" alt="">
+            <img class="play-btn__ring play-btn__ring--inner" src="images/play-ring-inner.svg" alt="">
+            <img class="play-btn__circle" src="images/play-circle.svg" alt="">
+            <img class="play-btn__icon" src="images/play-triangle.svg" alt="">
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FEATURES + PROCESS (dark band) ===================== -->
+    <section class="features" id="services">
+      <div class="container">
+        <!-- Three light cards that overlap the hero -->
+        <div class="feature-cards">
+          <article class="feature-card">
+            <div class="feature-card__top">
+              <span class="feature-card__number">01/</span>
+              <img src="images/icon-craftsmanship.png" alt="" width="59" height="59">
+            </div>
+            <h3 class="feature-card__title">Custom Craftsmanship</h3>
+            <p class="feature-card__text">Elevate your outdoor space with our tailored, handcrafted decks, meticulously designed to suit your style and preferences.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-card__top">
+              <span class="feature-card__number">02/</span>
+              <img src="images/icon-materials.png" alt="" width="59" height="59">
+            </div>
+            <h3 class="feature-card__title">Premium Materials</h3>
+            <p class="feature-card__text">We only use the finest, high-quality materials to ensure the longevity and elegance of your new deck.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-card__top">
+              <span class="feature-card__number">03/</span>
+              <img src="images/icon-pride.png" alt="" width="59" height="59">
+            </div>
+            <h3 class="feature-card__title">American Pride</h3>
+            <p class="feature-card__text">Our team of skilled and passionate builders take immense pride bringing American craftsmanship and values to every project.</p>
+          </article>
+        </div>
+      </div>
+
+      <!-- Three dark cards inside one bordered box -->
+      <div class="highlights">
+        <article class="highlight">
+          <span class="highlight__icon"><img src="images/icon-list.svg" alt="" width="15" height="15"></span>
+          <h3 class="highlight__title">Custom Craftsmanship</h3>
+          <p class="highlight__text">Elevate your outdoor space with our tailored, handcrafted decks, meticulously designed to suit your style and preferences.</p>
+        </article>
+        <article class="highlight">
+          <span class="highlight__icon"><img src="images/icon-filters.svg" alt="" width="15" height="15"></span>
+          <h3 class="highlight__title">Premium Materials</h3>
+          <p class="highlight__text">We only use the finest, high-quality materials to ensure the longevity and elegance of your new deck.</p>
+        </article>
+        <article class="highlight">
+          <span class="highlight__icon"><img src="images/icon-dashboard.svg" alt="" width="15" height="15"></span>
+          <h3 class="highlight__title">American Pride</h3>
+          <p class="highlight__text">Our team of skilled and passionate builders take immense pride bringing American craftsmanship and values to every project.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT + SERVICES (shared blueprint background) ===================== -->
+    <div class="about-services">
+
+      <!-- ---------- About ---------- -->
+      <section class="about" id="about">
+        <div class="container about__grid">
+
+          <!-- Photo collage -->
+          <div class="collage collage--about">
+            <img class="collage__shape" src="images/about-shape.png" alt="">
+            <img class="collage__photo collage__photo--one" src="images/about-photo-1.jpg" alt="Finished deck with a covered pergola">
+            <img class="collage__photo collage__photo--two" src="images/about-photo-2.jpg" alt="Two-storey deck with stairs">
+            <span class="collage__tag">Since 2018</span>
+          </div>
+
+          <div class="about__text">
+            <p class="tagline"><span class="tagline__line"></span>About Us</p>
+            <h2 class="section-title section-title--md">Crafting Exquisite<br>Decks for Your Home</h2>
+            <p class="about__description">At Idaho Deck, we take pride in crafting outdoor spaces that invite relaxation, entertainment, and family time. Your dream deck is just a click away!</p>
+
+            <div class="stats">
+              <div class="stat">
+                <p class="stat__number"><span class="counter" data-target="355">355</span><span class="stat__plus">+</span></p>
+                <p class="stat__label">Projects Completed</p>
+              </div>
+              <div class="stat">
+                <p class="stat__number"><span class="counter" data-target="200">200</span></p>
+                <p class="stat__label">Satisfied Clients</p>
+              </div>
+            </div>
+
+            <a href="#contact" class="btn btn--red btn--md">
+              <span class="btn__label" data-label="More About Us">More About Us</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------- Services (process steps) ---------- -->
+      <section class="services">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <p class="tagline"><span class="tagline__line"></span>Our Services</p>
+              <h2 class="section-title">Your Journey to Outdoor Bliss</h2>
+            </div>
+            <a href="#contact" class="btn btn--red btn--sm">
+              <span class="btn__label" data-label="View All Services">View All Services</span>
+            </a>
+          </div>
+
+          <div class="service-grid">
+            <article class="service-card">
+              <img class="service-card__image" src="images/service-1.jpg" alt="Wooden deck beside a forest home">
+              <div class="service-card__content">
+                <span class="service-card__number">01</span>
+                <h3 class="service-card__title">Defining Your<br>Vision</h3>
+                <div class="service-card__more">
+                  <p>Some text about designing your vision</p>
+                  <a href="#contact" class="service-card__link">Learn More <img src="images/arrow-white.svg" alt=""></a>
+                </div>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <img class="service-card__image" src="images/service-2.jpg" alt="Deck at sunset overlooking the valley">
+              <div class="service-card__content">
+                <span class="service-card__number">02</span>
+                <h3 class="service-card__title">Design and<br>Planning</h3>
+                <div class="service-card__more">
+                  <p>Some text about designing and planning</p>
+                  <a href="#contact" class="service-card__link">Learn More <img src="images/arrow-white.svg" alt=""></a>
+                </div>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <img class="service-card__image" src="images/service-3.jpg" alt="Covered deck with lights at dusk">
+              <div class="service-card__content">
+                <span class="service-card__number">03</span>
+                <h3 class="service-card__title">Getting an<br>Estimate</h3>
+                <div class="service-card__more">
+                  <p>Some text about getting an estimate</p>
+                  <a href="#contact" class="service-card__link">Learn More <img src="images/arrow-white.svg" alt=""></a>
+                </div>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <img class="service-card__image" src="images/service-4.jpg" alt="Poolside deck with lounge chairs">
+              <div class="service-card__content">
+                <span class="service-card__number">04</span>
+                <h3 class="service-card__title">Scheduling and<br>Construction</h3>
+                <div class="service-card__more">
+                  <p>Dignissimos ducimus qui blanditiis lorem sit</p>
+                  <a href="#contact" class="service-card__link">Learn More <img src="images/arrow-white.svg" alt=""></a>
+                </div>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <img class="service-card__image" src="images/service-5.jpg" alt="Deck with glass railing by a lake">
+              <div class="service-card__content">
+                <span class="service-card__number">05</span>
+                <h3 class="service-card__title">Quality<br>Assurance</h3>
+                <div class="service-card__more">
+                  <p>Dignissimos ducimus qui blanditiis lorem sit</p>
+                  <a href="#contact" class="service-card__link">Learn More <img src="images/arrow-white.svg" alt=""></a>
+                </div>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <img class="service-card__image" src="images/service-6.jpg" alt="Deck with a mountain view at golden hour">
+              <div class="service-card__content">
+                <span class="service-card__number">06</span>
+                <h3 class="service-card__title">Enjoying Your New<br>Space</h3>
+                <div class="service-card__more">
+                  <p>Dignissimos ducimus qui blanditiis lorem sit</p>
+                  <a href="#contact" class="service-card__link">Learn More <img src="images/arrow-white.svg" alt=""></a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ===================== MATERIALS MATTER ===================== -->
+    <section class="materials" id="materials">
+      <div class="container materials__inner">
+        <div class="materials__text">
+          <p class="tagline"><span class="tagline__line"></span>Lorem Ipsum Dolor Sit Amet</p>
+          <h2 class="section-title section-title--white">Materials Matter</h2>
+          <p class="materials__description">Learn about the premium materials we use in our projects. From natural timber to high-quality composite, we believe in using the best to create beautiful and lasting outdoor spaces.</p>
+          <a href="#contact" class="btn btn--outline-white btn--sm">
+            <span class="btn__label" data-label="Get a Quote">Get a Quote</span>
+          </a>
+        </div>
+
+        <div class="materials__stats">
+          <div class="tile"><p class="tile__number"><span class="counter" data-target="48">48</span>+</p><p class="tile__label">Lorem ipsum dolor sit</p></div>
+          <div class="tile"><p class="tile__number"><span class="counter" data-target="99">99</span>%</p><p class="tile__label">Lorem ipsum dolor sit</p></div>
+          <div class="tile"><p class="tile__number"><span class="counter" data-target="25">25</span>+</p><p class="tile__label">Lorem ipsum dolor sit</p></div>
+          <div class="tile"><p class="tile__number"><span class="counter" data-target="88">88</span>+</p><p class="tile__label">Lorem ipsum dolor sit</p></div>
+        </div>
+      </div>
+      <img class="materials__shape" src="images/materials-shape.png" alt="">
+    </section>
+
+    <!-- ===================== LATEST PROJECTS (carousel) ===================== -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="tagline"><span class="tagline__line"></span>Company Projects</p>
+            <h2 class="section-title section-title--inter">Latest Projects</h2>
+          </div>
+          <a href="#projects" class="btn btn--red btn--sm">
+            <span class="btn__label" data-label="View All Projects">View All Projects</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="carousel projects__carousel" data-visible="2">
+        <div class="projects__viewport">
+          <ul class="projects__track" data-track>
+            <li class="project">
+              <img class="project__image" src="images/project-1.jpg" alt="Downtown Boise commercial deck">
+              <div class="project__card">
+                <h3 class="project__title"><span>01/</span>Downtown Boise</h3>
+                <p class="project__text">Dignissimos ducimus qui blanditiis lorem sit lorem praesentium voluptatum deleniti atque.</p>
+                <div class="project__meta">
+                  <strong>Commercial</strong><span class="project__divider"></span><time>May 30, 2023</time><span>Boise</span>
+                </div>
+                <a href="#projects" class="project__arrow" aria-label="View Downtown Boise project"><img src="images/arrow-white.svg" alt=""></a>
+              </div>
+            </li>
+
+            <li class="project">
+              <img class="project__image" src="images/project-2.jpg" alt="Sun Valley residential deck">
+              <div class="project__card">
+                <h3 class="project__title"><span>02/</span>Sun Valley</h3>
+                <p class="project__text">Dignissimos ducimus qui blanditiis lorem sit lorem praesentium voluptatum deleniti atque.</p>
+                <div class="project__meta">
+                  <strong>Residential</strong><span class="project__divider"></span><time>May 30, 2023</time><span>Sun Valley</span>
+                </div>
+                <a href="#projects" class="project__arrow" aria-label="View Sun Valley project"><img src="images/arrow-white.svg" alt=""></a>
+              </div>
+            </li>
+
+            <li class="project">
+              <!-- The Figma file has no photo for this card yet, so a service photo is used as a placeholder -->
+              <img class="project__image" src="images/service-4.jpg" alt="Coeur d'Alene residential deck">
+              <div class="project__card">
+                <h3 class="project__title"><span>03/</span>Coeur d'Alene</h3>
+                <p class="project__text">Dignissimos ducimus qui blanditiis lorem sit lorem praesentium voluptatum deleniti atque.</p>
+                <div class="project__meta">
+                  <strong>Residential</strong>
+                </div>
+                <a href="#projects" class="project__arrow" aria-label="View Coeur d'Alene project"><img src="images/arrow-white.svg" alt=""></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <button class="round-btn round-btn--prev" type="button" data-prev aria-label="Previous project"><img src="images/arrow-white.svg" alt=""></button>
+        <button class="round-btn round-btn--next" type="button" data-next aria-label="Next project"><img src="images/arrow-white.svg" alt=""></button>
+      </div>
+    </section>
+
+    <!-- ===================== WHY CHOOSE US (accordion) ===================== -->
+    <section class="why">
+      <div class="container why__grid">
+
+        <div class="collage collage--why">
+          <img class="collage__shape" src="images/whyus-shape.png" alt="">
+          <img class="collage__photo collage__photo--one" src="images/whyus-photo-1.jpg" alt="Deck with black railing at sunrise">
+          <img class="collage__photo collage__photo--two" src="images/whyus-photo-2.jpg" alt="Deck lit up in the evening">
+        </div>
+
+        <div class="why__text">
+          <p class="tagline"><span class="tagline__line"></span>Why Us</p>
+          <h2 class="section-title section-title--lg">Why Choose<br>Idaho Deck?</h2>
+
+          <div class="accordion">
+            <div class="accordion__item is-open">
+              <button class="accordion__header" type="button" aria-expanded="true">
+                Locally Owned &amp; Operated
+                <span class="accordion__icon"><img src="images/chevron-down.svg" alt=""></span>
+              </button>
+              <div class="accordion__panel">
+                <p>As a locally owned and operated business, we understand the unique needs of our community. Our commitment to quality, craftsmanship, and customer satisfaction is a reflection of our dedication to serving our neighbors and friends in Idaho. When you choose us, you're choosing a partner who truly cares about your outdoor space.</p>
+              </div>
+            </div>
+
+            <div class="accordion__item">
+              <button class="accordion__header" type="button" aria-expanded="false">
+                Exceptional Craftsmanship
+                <span class="accordion__icon"><img src="images/chevron-down.svg" alt=""></span>
+              </button>
+              <div class="accordion__panel">
+                <p>Every deck is built by skilled craftsmen who care about the details, from the first measurement to the final finish.</p>
+              </div>
+            </div>
+
+            <div class="accordion__item">
+              <button class="accordion__header" type="button" aria-expanded="false">
+                Premium Materials &amp; Quality Assurance
+                <span class="accordion__icon"><img src="images/chevron-down.svg" alt=""></span>
+              </button>
+              <div class="accordion__panel">
+                <p>We use only high-quality timber and composite materials, and we inspect every project to make sure it lasts.</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn btn--red btn--sm">
+            <span class="btn__label" data-label="Contact Us">Contact Us</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="contact" id="contact">
+      <div class="container container--wide contact__inner">
+
+        <div class="contact__text">
+          <p class="tagline"><span class="tagline__line"></span>Let’s talk</p>
+          <h2 class="section-title section-title--white">Let's Connect and Get Started!</h2>
+          <p class="contact__description">Have questions, ideas, or ready to embark on your outdoor project? We're here to assist you every step of the way. Reach out to us, and let's start building your dream outdoor space today. Your satisfaction is our priority.</p>
+
+          <ul class="contact__list">
+            <li class="contact__item">
+              <img class="contact__icon" src="images/icon-phone.svg" alt="" width="50" height="50">
+              <div>
+                <p class="contact__label">Phone Number</p>
+                <p class="contact__value"><a href="tel:+12088009000">(208) 800-9000</a> <span class="contact__sep">|</span> <a href="tel:+18005543246">(800) 55-IDAHO</a></p>
+              </div>
+            </li>
+            <li class="contact__item">
+              <span class="contact__icon contact__icon--mail"><img src="images/icon-mail.svg" alt="" width="30" height="30"></span>
+              <div>
+                <p class="contact__label">Email</p>
+                <p class="contact__value"><a href="mailto:info@idahodeck.com">info@idahodeck.com</a> <span class="contact__sep">|</span> <a href="mailto:inquries@idahodeck.com">inquries@idahodeck.com</a></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <h3 class="contact-form__title">Your Information</h3>
+
+          <label class="field">
+            <span class="field__label">Your Name</span>
+            <input class="field__input" type="text" name="name" placeholder="John Doe" required>
+          </label>
+
+          <label class="field">
+            <span class="field__label">Your Email</span>
+            <input class="field__input" type="email" name="email" placeholder="johndoe@email.com" required>
+          </label>
+
+          <label class="field">
+            <span class="field__label">Message</span>
+            <textarea class="field__input field__input--area" name="message" placeholder="Enter Your Message" required></textarea>
+          </label>
+
+          <button class="btn btn--red btn--block" type="submit">
+            <span class="btn__label" data-label="Submit Now">Submit Now</span>
+          </button>
+          <p class="contact-form__status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===================== TESTIMONIALS (carousel) ===================== -->
+    <section class="testimonials">
+      <div class="container">
+        <p class="tagline tagline--center"><span class="tagline__line"></span><span class="tagline__small">Testimonials</span><span class="tagline__line"></span></p>
+        <h2 class="section-title section-title--center">Clients Love Idaho Deck</h2>
+      </div>
+
+      <div class="carousel testimonials__carousel" data-visible="2">
+        <div class="testimonials__viewport">
+          <ul class="testimonials__track" data-track>
+            <li class="review">
+              <div class="review__stars" aria-label="Rated 5.0 out of 5">
+                <img src="images/star.png" alt=""><img src="images/star.png" alt=""><img src="images/star.png" alt=""><img src="images/star.png" alt=""><img src="images/star.png" alt="">
+                <strong>5.0</strong>
+              </div>
+              <p class="review__text">“Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage lorem ipsum dolor”</p>
+              <div class="review__author">
+                <img src="images/avatar-1.png" alt="James Robertson" width="51" height="51">
+                <div><strong>James Robertson</strong><span>Sydney, Australia</span></div>
+              </div>
+            </li>
+
+            <li class="review">
+              <div class="review__stars" aria-label="Rated 5.0 out of 5">
+                <img src="images/star.png" alt=""><img src="images/star.png" alt=""><img src="images/star.png" alt=""><img src="images/star.png" alt=""><img src="images/star.png" alt="">
+                <strong>5.0</strong>
+              </div>
+              <p class="review__text">“Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage lorem ipsum dolor”</p>
+              <div class="review__author">
+                <img src="images/avatar-2.png" alt="Cameron Williamson" width="51" height="51">
+                <div><strong>Cameron Williamson</strong><span>Los Angeles, California</span></div>
+              </div>
+            </li>
+
+            <li class="review">
+              <div class="review__stars" aria-label="Rated 5.0 out of 5">
+                <img src="images/star.png" alt=""><img src="images/star.png" alt=""><img src="images/star.png" alt=""><img src="images/star.png" alt=""><img src="images/star.png" alt="">
+                <strong>5.0</strong>
+              </div>
+              <p class="review__text">“Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage lorem ipsum dolor”</p>
+              <div class="review__author">
+                <img src="images/avatar-3.png" alt="Brooklyn Simmons" width="51" height="51">
+                <div><strong>Brooklyn Simmons</strong><span>Sydney, Australia</span></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <button class="round-btn round-btn--prev" type="button" data-prev aria-label="Previous review"><img src="images/arrow-white.svg" alt=""></button>
+        <button class="round-btn round-btn--next" type="button" data-next aria-label="Next review"><img src="images/arrow-white.svg" alt=""></button>
+      </div>
+    </section>
+
+    <!-- ===================== BLOG ===================== -->
+    <section class="blog">
+      <div class="container container--wide">
+        <div class="section-head">
+          <div>
+            <p class="tagline"><span class="tagline__line"></span>Idaho Deck Blog</p>
+            <h2 class="section-title section-title--inter">Latest Posts</h2>
+          </div>
+          <a href="#blog" class="btn btn--red btn--md">
+            <span class="btn__label" data-label="View All Articles">View All Articles</span>
+          </a>
+        </div>
+
+        <div class="blog__grid">
+          <article class="post">
+            <div class="post__image">
+              <img src="images/blog-1.jpg" alt="Deck with an outdoor kitchen by the lake">
+              <time class="post__date" datetime="2023-08-15"><strong>15</strong><span>Aug/22</span></time>
+            </div>
+            <div class="post__meta"><span class="post__category">Decks</span><span class="post__author">Charles Hussy</span></div>
+            <h3 class="post__title"><a href="#blog">Designing the Perfect Deck for Your Home:</a></h3>
+            <p class="post__excerpt">Officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+            <a href="#blog" class="post__more"><span>Learn More</span><img src="images/arrow-red.svg" alt="" width="30" height="30"></a>
+          </article>
+
+          <article class="post">
+            <div class="post__image">
+              <img src="images/blog-2.jpg" alt="Carpenter fitting timber decking boards">
+              <time class="post__date" datetime="2023-08-16"><strong>16</strong><span>Aug/22</span></time>
+            </div>
+            <div class="post__meta"><span class="post__category">Decks</span><span class="post__author">Charles Hussy</span></div>
+            <h3 class="post__title"><a href="#blog">5 Creative Ideas for Customizing Your Patio Space</a></h3>
+            <p class="post__excerpt">Officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum.</p>
+            <a href="#blog" class="post__more"><span>Learn More</span><img src="images/arrow-red.svg" alt="" width="30" height="30"></a>
+          </article>
+
+          <article class="post">
+            <div class="post__image">
+              <img src="images/blog-3.jpg" alt="Composite deck with an armchair">
+              <time class="post__date" datetime="2023-08-17"><strong>17</strong><span>Aug/22</span></time>
+            </div>
+            <div class="post__meta"><span class="post__category">Decks</span><span class="post__author">Charles Hussy</span></div>
+            <h3 class="post__title"><a href="#blog">Choosing Between Timber and Composite Decking: Pros and Cons</a></h3>
+            <p class="post__excerpt">Officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum.</p>
+            <a href="#blog" class="post__more"><span>Learn More</span><img src="images/arrow-red.svg" alt="" width="30" height="30"></a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container container--wide">
+
+      <div class="footer__newsletter">
+        <h2 class="footer__heading-lg">Subscribe to Our Newsletter</h2>
+        <form class="newsletter" id="newsletter-form" novalidate>
+          <input class="newsletter__input" type="email" placeholder="Email Address" aria-label="Email address" required>
+          <button class="newsletter__btn" type="submit">Subscribe Now</button>
+        </form>
+      </div>
+
+      <div class="footer__columns">
+        <div class="footer__brand">
+          <img src="images/logo-white.svg" alt="Idaho Deck" width="200" height="69">
+          <p>Your vision is our top priority. We work closely with you to bring your outdoor dream to life. Whether you have a specific design in mind or need guidance, our experts are here to tailor the project to your desires.</p>
+          <div class="social">
+            <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".5"/></svg></a>
+            <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+            <a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></a>
+            <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+            <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg></a>
+          </div>
+        </div>
+
+        <div class="footer__col">
+          <h3 class="footer__heading">Navigation</h3>
+          <ul class="footer__links footer__links--two">
+            <li><a href="#top">Home 01</a></li>
+            <li><a href="#top">Home 02</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#services">Service Single</a></li>
+            <li><a href="#materials">Shop</a></li>
+            <li><a href="#materials">Shop Single</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#blog">Blog Details</a></li>
+            <li><a href="#projects">Project</a></li>
+            <li><a href="#projects">Project Single</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h3 class="footer__heading">Utility Pages</h3>
+          <ul class="footer__links">
+            <li><a href="#">Style Guide</a></li>
+            <li><a href="#">Protected Password</a></li>
+            <li><a href="#">404 Not Found</a></li>
+            <li><a href="#">License</a></li>
+            <li><a href="#">Changelog</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h3 class="footer__heading">Contact Us</h3>
+          <ul class="footer__contact">
+            <li><span class="footer__dot"></span><a href="mailto:info@idahodeck.com">info@idahodeck.com</a></li>
+            <li><span class="footer__dot"></span><a href="tel:+12088009000">(208) 800-9000</a></li>
+            <li><span class="footer__dot"></span><a href="tel:+18005543246">(800) 55-IDAHO</a></li>
+            <li><span class="footer__dot"></span>Idaho, USA</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="footer__copy">© <span id="year">2026</span> Idaho Deck. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
